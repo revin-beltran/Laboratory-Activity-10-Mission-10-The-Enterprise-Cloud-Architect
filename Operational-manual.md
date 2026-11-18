@@ -9,7 +9,8 @@ Application Stack: WordPress + MySQL + Docker Compose
 Virtualization Platform: Oracle VM VirtualBox
 Server Operating System: Ubuntu Server
 
-Prepared by: 
+## Prepared by: 
+
 <br> - Melvin S. Irineo
 <br> - Revin Jay D. Beltran
 <br>Christopher John D. Gamboa
