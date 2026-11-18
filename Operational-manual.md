@@ -1,5 +1,7 @@
-1. Architecture and Data Flow
+## 1. Architecture and Data Flow
 The Windows computer acts as the physical host. Oracle VM VirtualBox runs the Ubuntu Server guest VM. Docker Engine operates inside Ubuntu Server, and Docker Compose manages two application containers: WordPress and MariaDB. WordPress serves the web application and communicates with MariaDB over an internal Docker network.
+
+```
 WINDOWS HOST (Browser: http://127.0.0.1:8080)
        │
        ▼
@@ -12,7 +14,8 @@ UBUNTU SERVER VM (Guest IP: 10.0.2.15)
 DOCKER ENGINE + DOCKER COMPOSE (/opt/ccm101-cloud)
        ├── WordPress container (ccm101-cloud-wordpress-1)
        └── MariaDB 11.4 container (ccm101-cloud-db-1)
-2. Ubuntu Server and Docker Environment
+```
+3. Ubuntu Server and Docker Environment
 Verify system versions and systemd service health using the following terminal commands:
 sudo apt update
 docker --version
