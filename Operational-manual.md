@@ -4,7 +4,7 @@ THE ENTERPRISE
 CLOUD ARCHITECT
 OPERATIONAL MANUAL
 
-    Project Title: Mission 10: The Enterprise Cloud Architecture
+Project Title: Mission 10: The Enterprise Cloud Architecture
 Application Stack: WordPress + MySQL + Docker Compose
 Virtualization Platform: Oracle VM VirtualBox
 Server Operating System: Ubuntu Server
