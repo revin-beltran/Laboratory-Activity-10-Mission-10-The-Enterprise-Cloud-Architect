@@ -3,10 +3,10 @@
 The Windows computer acts as the physical host. Oracle VM VirtualBox runs the Ubuntu Server guest VM. Docker Engine operates inside Ubuntu Server, and Docker Compose manages two application containers: WordPress and MariaDB. WordPress serves the web application and communicates with MariaDB over an internal Docker network.
 
 ```
-WINDOWS HOST (Browser: http://127.0.0.1:8080)
+WINDOWS HOST (Browser: http://8081)
        │
        ▼
-ORACLE VM VIRTUALBOX (NAT + Port Forwarding 8080 -> 80)
+ORACLE VM VIRTUALBOX (NAT + Port Forwarding 8081 -> 80)
        │
        ▼
 UBUNTU SERVER VM (Guest IP: 10.0.2.15)
@@ -37,7 +37,7 @@ sudo docker compose ps
 ``` 
 
 ## 4. Accessing WordPress
-Open the application on the host browser using http://127.0.0.1:8080
+Open the application on the host browser using http://8081
 			 
 ## 5. Container Operations and Logs
 Inspect application state and resource usage:
@@ -70,7 +70,7 @@ Configuration commands:
 sudo ufw default deny incoming
 sudo ufw default allow outgoing
 sudo ufw allow 22/tcp
-sudo ufw allow 8080/tcp
+sudo ufw allow 8081/tcp
 sudo ufw enable
 ```
 
@@ -113,15 +113,15 @@ free -h
   <tbody>
     <tr>
       <td>WordPress page unavailable</td>
-      <td>Run sudo docker compose ps, check port 8080 mapping, verify VirtualBox NAT port forwarding.</td>
+      <td>Run sudo docker compose ps, check port 8081 mapping, verify VirtualBox NAT port forwarding.</td>
     </tr>
     <tr>
       <td>MariaDB container unhealthy</td>
       <td>Run sudo docker compose logs --tail=100 db. Verify volume mount ccm101-cloud_db_data.</td>
     </tr>
     <tr>
-      <td>Port 8080 conflict</td>
-      <td>Identify listening process: sudo ss -ltnp | grep ':8080'.</td>
+      <td>Port 8081 conflict</td>
+      <td>Identify listening process: sudo ss -ltnp | grep ':8081'.</td>
     </tr>
     <tr>
       <td>Backup file empty (0 bytes)</td>
