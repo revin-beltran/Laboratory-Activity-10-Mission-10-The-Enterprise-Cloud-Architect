@@ -1,8 +1,8 @@
 # CCM101 – CLOUD COMPUTING
 ## MISSION 10
-## THE ENTERPRISE
-## CLOUD ARCHITECT
-# OPERATIONAL MANUAL
+THE ENTERPRISE
+CLOUD ARCHITECT
+OPERATIONAL MANUAL
 
     Project Title: Mission 10: The Enterprise Cloud Architecture
 Application Stack: WordPress + MySQL + Docker Compose
