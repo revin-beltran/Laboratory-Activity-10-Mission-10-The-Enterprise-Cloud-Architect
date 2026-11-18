@@ -11,10 +11,10 @@ Server Operating System: Ubuntu Server
 
 Prepared by: 
 <br>Melvin S. Irineo
--Revin Jay D. Beltran
--Christopher John D. Gamboa
--Kurt Justin C. Rilloraza
--DJ L. Mones
+<br>Revin Jay D. Beltran
+<br>Christopher John D. Gamboa
+<br>Kurt Justin C. Rilloraza
+<br>DJ L. Mones
 Section: BSIT 4-H
 Date: November 6, 2026
 Instructor: Jenkielyn C. Torres
