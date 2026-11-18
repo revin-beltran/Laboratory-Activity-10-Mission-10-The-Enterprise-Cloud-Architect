@@ -10,8 +10,8 @@ Virtualization Platform: Oracle VM VirtualBox
 Server Operating System: Ubuntu Server
 
 Prepared by: 
-<br>Melvin S. Irineo
-<br>Revin Jay D. Beltran
+<br> - Melvin S. Irineo
+<br> - Revin Jay D. Beltran
 <br>Christopher John D. Gamboa
 <br>Kurt Justin C. Rilloraza
 <br>DJ L. Mones
