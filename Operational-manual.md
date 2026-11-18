@@ -10,14 +10,18 @@ Virtualization Platform: Oracle VM VirtualBox
 Server Operating System: Ubuntu Server
 Prepared by: 
 Melvin S. Irineo
-Revin Jay Beltran
+Revin Jay D. Beltran
+Christopher John D. Gamboa
+Kurt Justin C. Rilloraza
+DJ L. Mones
 Section: BSIT 4-H
 Date: November 6, 2026
 Instructor: Jenkielyn C. Torres
 
 CCM101 Laboratory Activity 10
 Mission 10: The Enterprise Cloud Architect
-Document Purpose and Evidence Standard
+
+### Document Purpose and Evidence Standard
 This operational manual explains how the Mission 10 environment is organized, deployed, accessed, secured, backed up, monitored, and recovered. It has been updated to match the current project directory (/opt/ccm101-cloud), container names (ccm101-cloud-wordpress-1 and ccm101-cloud-db-1), database image (MariaDB 11.4), and browser port (8080) visible in the supplied evidence.
 Project Snapshot
 Area	Observed / Documented Value	Evidence Status
