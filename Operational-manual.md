@@ -8,6 +8,7 @@ Project Title: Mission 10: The Enterprise Cloud Architecture
 Application Stack: WordPress + MySQL + Docker Compose
 Virtualization Platform: Oracle VM VirtualBox
 Server Operating System: Ubuntu Server
+
 Prepared by: 
 Melvin S. Irineo
 Revin Jay D. Beltran
