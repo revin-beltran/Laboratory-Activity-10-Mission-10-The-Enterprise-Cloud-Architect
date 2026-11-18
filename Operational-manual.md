@@ -10,11 +10,11 @@ Virtualization Platform: Oracle VM VirtualBox
 Server Operating System: Ubuntu Server
 
 Prepared by: 
-Melvin S. Irineo
-Revin Jay D. Beltran
-Christopher John D. Gamboa
-Kurt Justin C. Rilloraza
-DJ L. Mones
+-Melvin S. Irineo
+-Revin Jay D. Beltran
+-Christopher John D. Gamboa
+-Kurt Justin C. Rilloraza
+-DJ L. Mones
 Section: BSIT 4-H
 Date: November 6, 2026
 Instructor: Jenkielyn C. Torres
